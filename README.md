@@ -31,12 +31,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://i.imgur.com/oVBSRNN.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here]https://github.com/PatrickCuentas/ip-tracker-app/tree/main)
+- Live Site URL: [Add live site URL here](https://ip-tracker-app-tau.vercel.app/)
 
 ## My process
 
@@ -101,8 +101,8 @@ hr {
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com) Coming Soon!!
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Patrick Cuentas](https://www.your-site.com) Coming Soon!!
+- Frontend Mentor - [@PatrickCuentas](https://www.frontendmentor.io/profile/PatrickCuentas)
 
 ## Acknowledgments
 
