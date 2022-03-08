@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import React,{ useState, useEffect } from 'react'
 import { FaArrowRight } from 'react-icons/fa'
 import { Map } from './components/Map'
 import useWindowSize from './hooks/useWindowSize.jsx'
@@ -112,9 +112,8 @@ function App() {
             ['ISP', isp],
           ].map(([title, value], index) => {
             return (
-              <>
+              <React.Fragment key={index}>
                 <li
-                  key={index}
                   style={{
                     marginLeft: title === 'ISP' && '3.7rem',
                   }}
@@ -127,7 +126,7 @@ function App() {
                   </p>
                 </li>
                 {width > 768 ? index < 3 ? <hr /> : null : null}
-              </>
+              </React.Fragment>
             )
           })}
         </ul>
