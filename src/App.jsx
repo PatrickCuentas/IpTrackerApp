@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { FaArrowRight } from 'react-icons/fa'
 import { Map } from './components/Map'
-import LOCATION from '../images/icon-location.svg'
 import useWindowSize from './hooks/useWindowSize.jsx'
 
 const key = 'tInG9rSuOMB4BmMrIMB0JUcI1vPvd'
@@ -86,8 +85,8 @@ function App() {
     <>
       <header className="min-h-[300px] md:min-h-[308px]"></header>
       <div className="relative z-[9999] pl-5 pr-[2.25rem] md:px-5 pb-20 pt-5">
-        <h1 className="font-bold text-white mb-12 sm:mb-10 md:mt-3 md:mb-[1.7rem] text-center text-xl md:text-3xl md:mr-[20px] md:tracking-[0.018em]">
-          IP Address Tracker {true ? '' : <img src={LOCATION.src} alt="" />}
+        <h1 className="font-semibold text-white mb-12 sm:mb-10 md:mt-3 md:mb-[1.7rem] text-center text-xl md:text-3xl md:mr-[20px] md:tracking-[0.018em]">
+          IP Address Tracker
         </h1>
         <form
           onSubmit={handleSubmit}
