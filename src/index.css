@@ -31,7 +31,7 @@
 
 @layer utilities {
   header {
-    background-image: url('../public/images/pattern-bg.png');
+    background-image: url('../images/pattern-bg.png');
     background-size: cover;
     background-position: center center;
     position: absolute;
