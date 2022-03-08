@@ -30,13 +30,15 @@ Users should be able to:
 - Search for any IP addresses or domains and see the key information and location
 
 ### Screenshot
-
+Desktop
 ![](https://i.imgur.com/oVBSRNN.png)
+Mobile
+![](https://i.imgur.com/zcYI5rK.png) 
 
 ### Links
 
-- Solution URL: [Add solution URL here]https://github.com/PatrickCuentas/ip-tracker-app/tree/main)
-- Live Site URL: [Add live site URL here](https://ip-tracker-app-tau.vercel.app/)
+- Solution URL: [https://github.com/PatrickCuentas/ip-tracker-app/tree/main]
+- Live Site URL: [https://ip-tracker-app-tau.vercel.app/]
 
 ## My process
 
