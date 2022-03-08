@@ -5,7 +5,7 @@ import {
   Popup,
   useMapEvents,
 } from 'react-leaflet'
-import { iconPerson } from '../../Icon'
+
 function LocationMarker({ coords }) {
   const map = useMapEvents({
     mouseover: () => {
@@ -14,7 +14,7 @@ function LocationMarker({ coords }) {
   })
 
   return coords === null ? null : (
-    <Marker position={coords} icon={iconPerson}>
+    <Marker position={coords}>
       <Popup>You are here</Popup>
     </Marker>
   )
