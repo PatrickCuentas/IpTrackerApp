@@ -85,7 +85,7 @@ function App() {
     <>
       <header className="min-h-[300px] md:min-h-[308px]"></header>
       <div className="relative z-[9999] pl-5 pr-[2.25rem] md:px-5 pb-20 pt-5">
-        <h1 className="font-semibold text-white mb-12 sm:mb-10 md:mt-3 md:mb-[1.7rem] text-center text-xl md:text-3xl md:mr-[20px] md:tracking-[0.018em]">
+        <h1 className="font-normal text-white mb-12 sm:mb-10 md:mt-3 md:mb-[1.7rem] text-center text-xl md:text-3xl md:mr-[20px] md:tracking-[0.018em]">
           IP Address Tracker
         </h1>
         <form
@@ -118,10 +118,10 @@ function App() {
                     marginLeft: title === 'ISP' && '3.7rem',
                   }}
                 >
-                  <span className="font-bold text-[11px] text-[hsl(0,0%,59%)] text-center md:text-left">
+                  <span className="font-bold text-[12px] text-[hsl(0,0%,59%)] text-center md:text-left">
                     {title}
                   </span>
-                  <p className="font-bold text-lg md:text-[1.7rem] md:max-w-[13ch] pt-2">
+                  <p className="font-medium text-lg md:text-[1.7rem] md:max-w-[13ch] pt-2">
                     {value}
                   </p>
                 </li>
